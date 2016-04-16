@@ -36,4 +36,5 @@ int main() {
 	cout << endl << endl;
     
     	delete context;
+    	return 0;
 }
