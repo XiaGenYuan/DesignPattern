@@ -6,7 +6,7 @@ int main() {
 	Emperors::Init();
 	for (int i = 0; i < 10; ++i) {
 		Emperors *emperor = Emperors::GetInstance();
-		emperor->EmperorInfo();
+		emperor->EmperorInfo(); 
 	}
 	return 0;
 }
