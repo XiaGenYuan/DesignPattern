@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Strategy", "Strategy\Strategy.vcxproj", "{4F84D394-E5D9-4019-B9EE-8C5673D616F8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Proxy", "Proxy\Proxy.vcxproj", "{8E154461-A429-4898-A8F2-BAAE5F6E4BDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +17,10 @@ Global
 		{4F84D394-E5D9-4019-B9EE-8C5673D616F8}.Debug|Win32.Build.0 = Debug|Win32
 		{4F84D394-E5D9-4019-B9EE-8C5673D616F8}.Release|Win32.ActiveCfg = Release|Win32
 		{4F84D394-E5D9-4019-B9EE-8C5673D616F8}.Release|Win32.Build.0 = Release|Win32
+		{8E154461-A429-4898-A8F2-BAAE5F6E4BDF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8E154461-A429-4898-A8F2-BAAE5F6E4BDF}.Debug|Win32.Build.0 = Debug|Win32
+		{8E154461-A429-4898-A8F2-BAAE5F6E4BDF}.Release|Win32.ActiveCfg = Release|Win32
+		{8E154461-A429-4898-A8F2-BAAE5F6E4BDF}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

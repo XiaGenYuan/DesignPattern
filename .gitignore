@@ -48,6 +48,7 @@ Temporary Items
 
 Debug/
 *.sdf
+*.opensdf
 Strategy/Debug
-
+*.suo
 
