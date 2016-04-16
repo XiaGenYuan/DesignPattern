@@ -34,4 +34,6 @@ int main() {
 	context->operate();
 	delete block_enemy;
 	cout << endl << endl;
+    
+    delete context;
 }
