@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Strategy", "Strategy\Strate
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Proxy", "Proxy\Proxy.vcxproj", "{8E154461-A429-4898-A8F2-BAAE5F6E4BDF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Singleton", "Singleton\Singleton.vcxproj", "{EFCDD093-D4C3-4CB5-BB2D-7BDAEA04B529}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -21,6 +23,10 @@ Global
 		{8E154461-A429-4898-A8F2-BAAE5F6E4BDF}.Debug|Win32.Build.0 = Debug|Win32
 		{8E154461-A429-4898-A8F2-BAAE5F6E4BDF}.Release|Win32.ActiveCfg = Release|Win32
 		{8E154461-A429-4898-A8F2-BAAE5F6E4BDF}.Release|Win32.Build.0 = Release|Win32
+		{EFCDD093-D4C3-4CB5-BB2D-7BDAEA04B529}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EFCDD093-D4C3-4CB5-BB2D-7BDAEA04B529}.Debug|Win32.Build.0 = Debug|Win32
+		{EFCDD093-D4C3-4CB5-BB2D-7BDAEA04B529}.Release|Win32.ActiveCfg = Release|Win32
+		{EFCDD093-D4C3-4CB5-BB2D-7BDAEA04B529}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
