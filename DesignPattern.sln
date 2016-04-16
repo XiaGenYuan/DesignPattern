@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Singleton", "Singleton\Sing
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Multition", "Multition\Multition.vcxproj", "{41157196-4378-4D9F-8FB8-E5713B150B05}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AbstractFactory", "AbstractFactory\AbstractFactory.vcxproj", "{9BC56588-4F74-473F-84D1-25A13DBF395F}"
+EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Factory", "Factory\Factory.vcxproj", "{7A379DBE-AA04-4823-BA5B-16911A7EFAEC}"
 EndProject
 Global
@@ -35,6 +37,10 @@ Global
 		{41157196-4378-4D9F-8FB8-E5713B150B05}.Debug|Win32.Build.0 = Debug|Win32
 		{41157196-4378-4D9F-8FB8-E5713B150B05}.Release|Win32.ActiveCfg = Release|Win32
 		{41157196-4378-4D9F-8FB8-E5713B150B05}.Release|Win32.Build.0 = Release|Win32
+		{9BC56588-4F74-473F-84D1-25A13DBF395F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9BC56588-4F74-473F-84D1-25A13DBF395F}.Debug|Win32.Build.0 = Debug|Win32
+		{9BC56588-4F74-473F-84D1-25A13DBF395F}.Release|Win32.ActiveCfg = Release|Win32
+		{9BC56588-4F74-473F-84D1-25A13DBF395F}.Release|Win32.Build.0 = Release|Win32
 		{7A379DBE-AA04-4823-BA5B-16911A7EFAEC}.Debug|Win32.ActiveCfg = Debug|Win32
 		{7A379DBE-AA04-4823-BA5B-16911A7EFAEC}.Debug|Win32.Build.0 = Debug|Win32
 		{7A379DBE-AA04-4823-BA5B-16911A7EFAEC}.Release|Win32.ActiveCfg = Release|Win32
