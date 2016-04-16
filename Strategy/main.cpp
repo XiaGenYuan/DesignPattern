@@ -8,32 +8,32 @@ using std::endl;
 
 int main() {
 	/*
-	ÕÔÔÆ³ö³¡£¬Ëû¸ù¾İÖî¸ğÁÁ¸øËûµÄ½»´ú£¬ÒÀ´Î²ğ¿ªÃî¼Æ
+	èµµäº‘å‡ºåœºï¼Œä»–æ ¹æ®è¯¸è‘›äº®ç»™ä»–çš„äº¤ä»£ï¼Œä¾æ¬¡æ‹†å¼€å¦™è®¡
 	*/
 	Context *context = new Context();
-	// ¸Õ¸Õµ½Îâ¹úÊ±²ğ¿ªµÚÒ»¸ö
-	cout << "¸Õ¸ÕÎâ¹ú£¬²ğ¿ªµÚÒ»¸öÃî¼Æ" << endl;
+	// åˆšåˆšåˆ°å´å›½æ—¶æ‹†å¼€ç¬¬ä¸€ä¸ª
+	cout << "åˆšåˆšå´å›½ï¼Œæ‹†å¼€ç¬¬ä¸€ä¸ªå¦™è®¡" << endl;
 	BackDoor *back_door = new BackDoor();
 	context->SetStrategy(back_door);
 	context->operate();
 	delete back_door;
 	cout << endl << endl;
 
-	// Áõ±¸ÀÖ²»Ë¼Êñ£¬²ğ¿ªµÚ¶ş¸ö
-	cout << "Áõ±¸ÀÖ²»Ë¼Êñ£¬²ğ¿ªµÚ¶ş¸ö" << endl;
+	// åˆ˜å¤‡ä¹ä¸æ€èœ€ï¼Œæ‹†å¼€ç¬¬äºŒä¸ª
+	cout << "åˆ˜å¤‡ä¹ä¸æ€èœ€ï¼Œæ‹†å¼€ç¬¬äºŒä¸ª" << endl;
 	GivenGreeenLight *given_green_light = new GivenGreeenLight();
 	context->SetStrategy(given_green_light);
 	context->operate();
 	delete given_green_light;
 	cout << endl << endl;
 
-	// ËïÈ¨µÄĞ¡±ø×·À´ÁËÕ¦°ì£¿²ğµÚÈı¸ö
-	cout << "ËïÈ¨µÄĞ¡±ø×·À´ÁËÕ¦°ì£¿²ğµÚÈı¸ö" << endl;
+	// å­™æƒçš„å°å…µè¿½æ¥äº†å’‹åŠï¼Ÿæ‹†ç¬¬ä¸‰ä¸ª
+	cout << "å­™æƒçš„å°å…µè¿½æ¥äº†å’‹åŠï¼Ÿæ‹†ç¬¬ä¸‰ä¸ª" << endl;
 	BlockEnemy *block_enemy = new BlockEnemy();
 	context->SetStrategy(block_enemy);
 	context->operate();
 	delete block_enemy;
 	cout << endl << endl;
     
-    delete context;
+    	delete context;
 }
