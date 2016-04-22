@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Factory", "Factory\Factory.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Facade", "Facade\Facade.vcxproj", "{C9B41691-64FE-4A2F-A2C2-80A1634B4F46}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Adapter", "Adapter\Adapter.vcxproj", "{599DA4FB-14DD-4719-868B-1B664446095C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -51,6 +53,10 @@ Global
 		{C9B41691-64FE-4A2F-A2C2-80A1634B4F46}.Debug|Win32.Build.0 = Debug|Win32
 		{C9B41691-64FE-4A2F-A2C2-80A1634B4F46}.Release|Win32.ActiveCfg = Release|Win32
 		{C9B41691-64FE-4A2F-A2C2-80A1634B4F46}.Release|Win32.Build.0 = Release|Win32
+		{599DA4FB-14DD-4719-868B-1B664446095C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{599DA4FB-14DD-4719-868B-1B664446095C}.Debug|Win32.Build.0 = Debug|Win32
+		{599DA4FB-14DD-4719-868B-1B664446095C}.Release|Win32.ActiveCfg = Release|Win32
+		{599DA4FB-14DD-4719-868B-1B664446095C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
